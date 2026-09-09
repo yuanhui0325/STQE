@@ -36,17 +36,18 @@ Depending on your CUDA configuration, please install the corresponding PyTorch b
 
 The public release is organized as follows:
 
+```text
 STQE/
 ├── main.py
 ├── data.py
 ├── util.py
 ├── stqe_runtime.py
 ├── stqe_core.so
-│
 └── pretrained/
     ├── stqe_y.stqe
     ├── stqe_u.stqe
     └── stqe_v.stqe
+```
 
 ### Pretrained Models
 
@@ -59,4 +60,6 @@ pretrained/stqe_v.stqe
 ### Training and Inference
 For inference, set '--eval' to True.
 
+```bash
 python main_mix_release.py
+```
