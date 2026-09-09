@@ -13,11 +13,13 @@ conda activate STQE
 
 We recommend creating a dedicated Conda environment:
 
+```bash
 conda create -n STQE python=3.10.12 -y
 conda activate STQE
+```
 
 Install the main dependencies:
-
+```bash
 pip install torch==2.6.0
 pip install numpy==1.23.5
 pip install h5py==3.13.0
@@ -26,6 +28,7 @@ pip install plyfile==1.1
 pip install sewar==0.4.6
 pip install scipy==1.15.2
 pip install tqdm==4.67.1
+```
 
 Depending on your CUDA configuration, please install the corresponding PyTorch build following the official PyTorch installation instructions.
 
