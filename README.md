@@ -2,10 +2,6 @@
 
 Official inference release of STQE for compressed point cloud quality enhancement.
 
-### Overview
-
-XXX 
-
 ### Installation
 
 We recommend creating a dedicated Conda environment:
