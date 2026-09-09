@@ -9,6 +9,7 @@ We recommend creating a dedicated Conda environment:
 ```bash
 conda create -n STQE python=3.10.12 -y
 conda activate STQE
+```
 
 We recommend creating a dedicated Conda environment:
 
