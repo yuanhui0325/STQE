@@ -6,6 +6,7 @@ Official inference release of STQE for compressed point cloud quality enhancemen
 
 We recommend creating a dedicated Conda environment:
 
+```bash
 conda create -n STQE python=3.10.12 -y
 conda activate STQE
 
