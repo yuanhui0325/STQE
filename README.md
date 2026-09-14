@@ -57,6 +57,10 @@ pretrained/stqe_y.stqe
 pretrained/stqe_u.stqe
 pretrained/stqe_v.stqe
 
+The pre-trained models can be downloaded from:
+- [Google Drive](https://drive.google.com/drive/folders/1WRUG4zXRjoPUqbEcy8DlAMCOAdp8-KnH?usp=drive_link)
+
+
 ### Training and Inference
 For inference, set '--eval' to True.
 
